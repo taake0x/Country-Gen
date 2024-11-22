@@ -55,7 +55,7 @@ async function main() {
     console.log(chalk.yellow("\nChargement..."));
 
     if (isNaN(count) || count <= 0) {
-        console.log(chalk.red("Pas de nom négatif ou nul"));
+        console.log(chalk.red("Pas de nombre négatif ou nul"));
         rl.close();
         return;
     }
