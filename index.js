@@ -49,7 +49,7 @@ async function main() {
         10
     );
     const username = await promptUser(
-        "Entrez votre nom d'utilisateur GeoNames (Tu dois créer ton compte et activé pour web) : "
+        "Entrez votre nom d'utilisateur GeoNames (Tu dois créer ton compte et activé le web service) : "
     );
 
     console.log(chalk.yellow("\nChargement..."));
